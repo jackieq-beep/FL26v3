@@ -1,0 +1,52 @@
+
+/* Glowing solid download buttons */
+
+.store-btn {
+    padding: 16px 32px;
+    border-radius: 12px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+    text-decoration: none;
+}
+
+/* GOOGLE PLAY BUTTON */
+.store-btn.google {
+    background: #00e0c8;
+    border: none;
+    color: #000;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(0, 224, 200, 0.6);
+}
+.store-btn.google:hover {
+    background: #00c2ab;
+    box-shadow: 0 0 18px rgba(0, 224, 200, 0.9);
+    transform: translateY(-3px);
+}
+
+/* APP STORE BUTTON */
+.store-btn.apple {
+    background: #ff006a;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(255, 0, 106, 0.6);
+}
+.store-btn.apple:hover {
+    background: #d90058;
+    box-shadow: 0 0 18px rgba(255, 0, 106, 0.9);
+    transform: translateY(-3px);
+}
+
+/* Optional text styling */
+.store-btn .store-label {
+    font-size: 12px;
+    opacity: 0.85;
+}
+
+.store-btn .store-name {
+    font-size: 18px;
+    font-weight: 700;
+}
