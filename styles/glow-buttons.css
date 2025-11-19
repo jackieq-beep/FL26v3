@@ -47,7 +47,7 @@
 /* Icon inside button */
 .store-btn svg {
   width: 16px;
-  height: 16px;
+  height: 10px;
   display: block;
   fill: currentColor;
 }
